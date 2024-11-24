@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(227, 227, 227);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh
+}
+
+.container {
+  background-color: white;
+  width: 310px;
+  min-height: 466px;
+  border-radius: 9px;
+  padding: 15px 18px;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  gap: 6px;
+  justify-content: space-between;
+}
+
+.navline {
+  width: 100%;
+  height: 2px;
+  background-color: #eaeaea;
+  border-radius: 3px;
+}
+
+.navline.active {
+  background-color: #000000;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  font-size: 12px;
+}
+
+.header h3 {
+  color: #000000;
+  font-weight: bold;
+}
+
+.header .close {
+  width: 12px;
+}
+
+.header .close:hover {
+  cursor: pointer
+}
+
+.main .circ {
+  width: 101px;
+  margin-top: 25px;
+}
+
+.content {
+  margin-top: 10px;
+}
+
+.main h1 {
+  margin: -10px;
+  font-size: 64px;
+  font-weight: bolder;
+}
+
+.main p {
+  color: #615d5d;
+  font-size: 14px;
+  line-height: 200%;
+}
+
+.main .footer-image {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
